@@ -1,0 +1,226 @@
+/* BharatGuide - SEO Optimized Styles */
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #1e293b;
+  --text-light: #64748b;
+  --border: #e2e8f0;
+  --accent: #f59e0b;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+/* Header */
+header {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.logo { font-size: 1.6rem; font-weight: 700; text-decoration: none; color: white; }
+.logo span { color: var(--accent); }
+
+nav a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+nav a:hover { color: white; }
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+  padding: 60px 0;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+.hero h1 { font-size: 2.2rem; margin-bottom: 12px; }
+.hero p { font-size: 1.15rem; color: var(--text-light); max-width: 650px; margin: 0 auto; }
+
+/* Categories */
+.categories { padding: 40px 0; }
+.categories h2 { font-size: 1.5rem; margin-bottom: 24px; text-align: center; }
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.category-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.category-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.category-card .icon { font-size: 2rem; margin-bottom: 8px; }
+.category-card h3 { font-size: 1.1rem; margin-bottom: 6px; }
+.category-card p { font-size: 0.9rem; color: var(--text-light); }
+
+/* Articles List */
+.articles-section { padding: 40px 0; }
+.articles-section h2 { font-size: 1.5rem; margin-bottom: 24px; }
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.article-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.article-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.article-card .cat-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: var(--primary);
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.article-card h3 { font-size: 1.1rem; margin-bottom: 8px; }
+.article-card h3 a { color: var(--text); text-decoration: none; }
+.article-card h3 a:hover { color: var(--primary); }
+.article-card p { font-size: 0.9rem; color: var(--text-light); margin-bottom: 10px; }
+.article-card .meta { font-size: 0.8rem; color: #94a3b8; }
+.article-card .read-more { color: var(--primary); font-weight: 600; font-size: 0.9rem; text-decoration: none; }
+
+/* Article Page */
+.article-page { padding: 40px 0; }
+.article-page article { 
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.article-page .breadcrumb {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+.article-page .breadcrumb a { color: var(--primary); text-decoration: none; }
+.article-page h1 { font-size: 2rem; line-height: 1.3; margin-bottom: 16px; }
+.article-page .article-meta {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-page h2 { font-size: 1.4rem; margin: 28px 0 12px; color: var(--text); }
+.article-page h3 { font-size: 1.15rem; margin: 20px 0 10px; }
+.article-page p { margin-bottom: 16px; color: #334155; }
+.article-page ul, .article-page ol { margin: 12px 0 16px 24px; }
+.article-page li { margin-bottom: 8px; }
+.article-page .step-box {
+  background: #f0f9ff;
+  border-left: 4px solid var(--primary);
+  padding: 16px 20px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+}
+.article-page .step-box strong { display: block; margin-bottom: 4px; color: var(--primary); }
+.article-page .tip-box {
+  background: #fefce8;
+  border-left: 4px solid var(--accent);
+  padding: 16px 20px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+}
+.article-page .tip-box strong { display: block; margin-bottom: 4px; color: #b45309; }
+.article-page .warning-box {
+  background: #fef2f2;
+  border-left: 4px solid #ef4444;
+  padding: 16px 20px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+}
+.article-page .warning-box strong { display: block; margin-bottom: 4px; color: #dc2626; }
+
+.article-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 0.9rem;
+}
+.article-page th, .article-page td {
+  border: 1px solid var(--border);
+  padding: 10px 14px;
+  text-align: left;
+}
+.article-page th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+.article-page .related-posts {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.article-page .related-posts h3 { margin-bottom: 16px; }
+.article-page .related-posts ul { list-style: none; margin: 0; padding: 0; }
+.article-page .related-posts li { margin-bottom: 8px; }
+.article-page .related-posts a { color: var(--primary); text-decoration: none; }
+
+/* Footer */
+footer {
+  background: #1e293b;
+  color: #94a3b8;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+footer a { color: #94a3b8; text-decoration: none; }
+footer a:hover { color: white; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 1.6rem; }
+  .hero p { font-size: 1rem; }
+  header .container { flex-direction: column; }
+  nav a { margin: 0 10px; }
+  .article-page article { padding: 24px 16px; }
+  .article-page h1 { font-size: 1.5rem; }
+}
