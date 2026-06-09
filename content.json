@@ -1,501 +1,1609 @@
-1|{
-2|  "site": {
-3|    "name": "BharatGuide",
-4|    "tagline": "Your complete guide to India's digital services — Aadhaar, PAN, DigiLocker, government schemes & more",
-5|    "description": "Step-by-step guides for India's digital services. Learn how to apply for Aadhaar, PAN, passport, driving license, scholarships and more. Simple, accurate, updated for 2026.",
-6|    "url": "https://joonsaify.github.io/bharatguide",
-7|    "language": "en"
-8|  },
-9|  "categories": [
-10|    {
-11|      "slug": "aadhaar",
-12|      "name": "Aadhaar",
-13|      "icon": "🆔",
-14|      "description": "Aadhaar card enrollment, update, download & status"
-15|    },
-16|    {
-17|      "slug": "pan",
-18|      "name": "PAN Card",
-19|      "icon": "💳",
-20|      "description": "PAN card apply, track, link & corrections"
-21|    },
-22|    {
-23|      "slug": "digilocker",
-24|      "name": "DigiLocker",
-25|      "icon": "🔐",
-26|      "description": "DigiLocker account, document upload & verification"
-27|    },
-28|    {
-29|      "slug": "driving-license",
-30|      "name": "Driving License",
-31|      "icon": "🚗",
-32|      "description": "DL apply, slot booking, renewal & test tips for Bhopal & MP"
-33|    },
-34|    {
-35|      "slug": "scholarships",
-36|      "name": "Scholarships",
-37|      "icon": "🎓",
-38|      "description": "MP scholarship, NSP, post-matric & pre-matric schemes"
-39|    },
-40|    {
-41|      "slug": "passport",
-42|      "name": "Passport",
-43|      "icon": "✈️",
-44|      "description": "Passport application, appointment, status & renewal"
-45|    }
-46|  ],
-47|  "articles": [
-48|    {
-49|      "slug": "how-to-check-aadhaar-status-online",
-50|      "title": "How to Check Aadhaar Status Online – Step by Step Guide 2026",
-51|      "category": "aadhaar",
-52|      "description": "Check your Aadhaar enrollment or update status online at uidai.gov.in. Complete step-by-step guide with screenshots for 2026.",
-53|      "date": "2026-06-09",
-54|      "readTime": "4 min",
-55|      "content": [
-56|        {
-57|          "type": "p",
-58|          "text": "Applied for a new Aadhaar card or requested an update? Knowing how to check your Aadhaar status online saves you from unnecessary trips to the enrollment center. This guide covers every method to check Aadhaar status in 2026."
-59|        },
-60|        {
-61|          "type": "h2",
-62|          "text": "What is Aadhaar Status?"
-63|        },
-64|        {
-65|          "type": "p",
-66|          "text": "Aadhaar status tells you whether your enrollment or update request has been processed by UIDAI. Common statuses include:"
-67|        },
-68|        {
-69|          "type": "ul",
-70|          "items": [
-71|            "Under Process — Your application is being verified",
-72|            "Generated — Aadhaar has been issued (download available)",
-73|            "Sent for Printing — Aadhaar letter is being printed",
-74|            "Dispatched — Physical letter has been sent via India Post",
-75|            "Rejected — Issue with documents or biometrics"
-76|          ]
-77|        },
-78|        {
-79|          "type": "h2",
-80|          "text": "Method 1: Check Aadhaar Status on UIDAI Website"
-81|        },
-82|        {
-83|          "type": "step",
-84|          "title": "Step 1: Visit the UIDAI Website",
-85|          "text": "Go to https://uidai.gov.in. This is the official UIDAI portal. Look for the 'Check Aadhaar Status' option under the 'My Aadhaar' section."
-86|        },
-87|        {
-88|          "type": "step",
-89|          "title": "Step 2: Enter Your Enrollment ID (EID)",
-90|          "text": "Your Enrollment ID is a 14-digit number printed on the acknowledgement slip you received during enrollment. It usually looks like 1234/56789/12345."
-91|        },
-92|        {
-93|          "type": "step",
-94|          "title": "Step 3: Enter Date and Time",
-95|          "text": "Enter the date and time shown on your acknowledgement slip. This helps UIDAI verify your application."
-96|        },
-97|        {
-98|          "type": "step",
-99|          "title": "Step 4: Enter Captcha and Submit",
-100|          "text": "Type the captcha code shown on screen and click 'Check Status'. Your current Aadhaar status will be displayed."
-101|        },
-102|        {
-103|          "type": "tip",
-104|          "text": "Keep your acknowledgement slip safe — it contains the Enrollment ID and date/time needed to check status. Take a photo of it on your phone."
-105|        },
-106|        {
-107|          "type": "h2",
-108|          "text": "Method 2: Check via mAadhaar App"
-109|        },
-110|        {
-111|          "type": "p",
-112|          "text": "The official mAadhaar app (available on Google Play Store) lets you check Aadhaar status on your phone. Download the app, register with your mobile number, and use the 'Check Status' feature. No EID needed if you're already registered."
-113|        },
-114|        {
-115|          "type": "h2",
-116|          "text": "Method 3: Check via SMS (Offline)"
-117|        },
-118|        {
-119|          "type": "p",
-120|          "text": "Send an SMS in this format to 51969 or 166 (or the number specified by UIDAI for your circle):"
-121|        },
-122|        {
-123|          "type": "code",
-124|          "text": "UIDSTATUS <14-digit Enrollment ID>"
-125|        },
-126|        {
-127|          "type": "p",
-128|          "text": "You'll receive an SMS with your current Aadhaar status. Standard SMS charges apply."
-129|        },
-130|        {
-131|          "type": "h2",
-132|          "text": "What to Do If Aadhaar Status Shows Rejected?"
-133|        },
-134|        {
-135|          "type": "p",
-136|          "text": "If your status shows 'Rejected', don't panic. Common reasons include unclear photographs, mismatched biometrics, or incomplete documents. Visit the nearest Aadhaar enrollment center with correct documents and re-enroll. There is no fee for re-enrollment."
-137|        },
-138|        {
-139|          "type": "h2",
-140|          "text": "How Long Does Aadhaar Take?"
-141|        },
-142|        {
-143|          "type": "p",
-144|          "text": "Aadhaar typically takes 60-90 days from enrollment to generation. Update requests (address change, mobile update) usually process faster — around 2-3 weeks. During peak periods it may take longer."
-145|        },
-146|        {
-147|          "type": "table",
-148|          "headers": [
-149|            "Status",
-150|            "What It Means",
-151|            "Action Needed"
-152|          ],
-153|          "rows": [
-154|            [
-155|              "Under Process",
-156|              "Verification in progress",
-157|              "Wait 2-3 more weeks"
-158|            ],
-159|            [
-160|              "Generated",
-161|              "Aadhaar issued",
-162|              "Download e-Aadhaar now"
-163|            ],
-164|            [
-165|              "Sent for Printing",
-166|              "Card being printed",
-167|              "No action needed"
-168|            ],
-169|            [
-170|              "Dispatched",
-171|              "Letter sent via post",
-172|              "Track on India Post"
-173|            ],
-174|            [
-175|              "Rejected",
-176|              "Documents/biometrics failed",
-177|              "Visit enrollment center"
-178|            ]
-179|          ]
-180|        },
-181|        {
-182|          "type": "h2",
-183|          "text": "Frequently Asked Questions"
-184|        },
-185|        {
-186|          "type": "h3",
-187|          "text": "Can I check Aadhaar status without enrollment ID?"
-188|        },
-189|        {
-190|          "type": "p",
-191|          "text": "No, the Enrollment ID (EID) is required to check status on the website. If you lost your acknowledgement slip, visit the enrollment center where you applied — they can provide a duplicate."
-192|        },
-193|        {
-194|          "type": "h3",
-195|          "text": "Is the mAadhaar app free?"
-196|        },
-197|        {
-198|          "type": "p",
-199|          "text": "Yes, the mAadhaar app is completely free to download and use. It's the official app from UIDAI and works on all Android phones."
-200|        }
-201|      ]
-202|    },
-203|    {
-204|      "slug": "digilocker-marksheet-download-2026",
-205|      "title": "DigiLocker Marksheet Download 2026 – How to Get Class 10, 12 & College Documents",
-206|      "category": "digilocker",
-207|      "description": "Step-by-step guide to download CBSE, MP Board, ICSE marksheets from DigiLocker. Free government digital document service for students.",
-208|      "date": "2026-06-09",
-209|      "readTime": "5 min",
-210|      "content": [
-211|        {
-212|          "type": "p",
-213|          "text": "DigiLocker has made it incredibly easy to access your academic marksheets and certificates online. Whether you passed Class 10th or 12th this year or graduated years ago, here's exactly how to download your marksheets from DigiLocker."
-214|        },
-215|        {
-216|          "type": "h2",
-217|          "text": "What is DigiLocker?"
-218|        },
-219|        {
-220|          "type": "p",
-221|          "text": "DigiLocker is a flagship initiative of the Indian Government under the Digital India program. It provides citizens a secure cloud-based platform to store, share, and verify digital documents. Over 300+ issuing agencies (CBSE, state boards, universities) are integrated."
-222|        },
-223|        {
-224|          "type": "h2",
-225|          "text": "Step 1: Sign Up for DigiLocker"
-226|        },
-227|        {
-228|          "type": "p",
-229|          "text": "Visit https://digilocker.gov.in or download the DigiLocker app from Google Play Store."
-230|        },
-231|        {
-232|          "type": "step",
-233|          "title": "Register with Aadhaar",
-234|          "text": "Click 'Sign Up' and enter your 12-digit Aadhaar number. An OTP will be sent to the mobile number registered with Aadhaar. Enter the OTP to verify."
-235|        },
-236|        {
-237|          "type": "step",
-238|          "title": "Set a 6-Digit PIN",
-239|          "text": "After OTP verification, create a 6-digit security PIN. This PIN will be required every time you open DigiLocker."
-240|        },
-241|        {
-242|          "type": "tip",
-243|          "text": "If your Aadhaar mobile number is not registered, visit the nearest Aadhaar enrollment center to update it. Alternatively, use the 'Register without Aadhaar' option with your mobile number — but Aadhaar-linked accounts get access to more documents."
-244|        },
-245|        {
-246|          "type": "h2",
-247|          "text": "Step 2: Find Your Marksheet"
-248|        },
-249|        {
-250|          "type": "step",
-251|          "title": "Go to 'Issued Documents'",
-252|          "text": "After logging in, click on 'Issued Documents' section. This shows all documents that government agencies have directly issued to your DigiLocker."
-253|        },
-254|        {
-255|          "type": "step",
-256|          "title": "Search for Your Board/University",
-257|          "text": "Type your board name (e.g., 'CBSE', 'MP Board', 'ICSE') or university name in the search bar. DigiLocker will show available document types."
-258|        },
-259|        {
-260|          "type": "step",
-261|          "title": "Select Marksheet Document",
-262|          "text": "Click on the marksheet or certificate option. You might need to enter your roll number and year of passing for verification."
-263|        },
-264|        {
-265|          "type": "h2",
-266|          "text": "Step 3: Download or Share"
-267|        },
-268|        {
-269|          "type": "p",
-270|          "text": "Once the document opens, you can:"
-271|        },
-272|        {
-273|          "type": "ul",
-274|          "items": [
-275|            "Click 'Download' to save a PDF copy to your phone/computer",
-276|            "Use 'Share' to send a digitally signed copy via email or WhatsApp",
-277|            "Use the URI (document ID) for online verification by colleges and employers"
-278|          ]
-279|        },
-280|        {
-281|          "type": "h2",
-282|          "text": "Documents Available on DigiLocker for MP Students"
-283|        },
-284|        {
-285|          "type": "ul",
-286|          "items": [
-287|            "MP Board (MPBSE) Class 10 Marksheet",
-288|            "MP Board (MPBSE) Class 12 Marksheet",
-289|            "CBSE Class 10 & 12 Marksheet (all regions including Bhopal)",
-290|            "Voter ID (EPIC)",
-291|            "Driving License",
-292|            "Vehicle RC",
-293|            "Ration Card",
-294|            "Caste Certificate"
-295|          ]
-296|        },
-297|        {
-298|          "type": "h2",
-299|          "text": "Why Use DigiLocker?"
-300|        },
-301|        {
-302|          "type": "p",
-303|          "text": "DigiLocker documents are legally valid under the IT Act, 2000. They are accepted by most government offices, colleges, and employers. You never need to carry physical copies — just show the DigiLocker app."
-304|        },
-305|        {
-306|          "type": "tip",
-307|          "text": "After downloading, save a backup on Google Drive or your computer. While DigiLocker is permanent, having offline access is always helpful during internet outages."
-308|        },
-309|        {
-310|          "type": "h2",
-311|          "text": "Troubleshooting"
-312|        },
-313|        {
-314|          "type": "ul",
-315|          "items": [
-316|            "No documents found? Your board might not have uploaded them yet. Check back after 2-3 weeks of results.",
-317|            "Forgot PIN? Use 'Forgot PIN' option on login screen. You'll receive an OTP on your registered mobile.",
-318|            "Aadhaar not linking? Ensure your name and DOB match exactly with Aadhaar details."
-319|          ]
-320|        }
-321|      ]
-322|    },
-323|    {
-324|      "slug": "how-to-book-driving-license-slot-bhopal",
-325|      "title": "How to Book Driving License Slot in Bhopal – RTO Appointment Guide 2026",
-326|      "category": "driving-license",
-327|      "description": "Complete guide to book DL slot at Bhopal RTO. Online appointment for learner's license and driving license test at MP RTO offices.",
-328|      "date": "2026-06-09",
-329|      "readTime": "6 min",
-330|      "content": [
-331|        {
-332|          "type": "p",
-333|          "text": "Booking a driving license slot at Bhopal RTO doesn't have to be confusing. Whether you're applying for a Learner's License (LLR) or the permanent Driving License (DL), here is the exact process for 2026."
-334|        },
-335|        {
-336|          "type": "h2",
-337|          "text": "Bhopal RTO Offices"
-338|        },
-339|        {
-340|          "type": "p",
-341|          "text": "Bhopal has two main RTO offices where you can book slots:"
-342|        },
-343|        {
-344|          "type": "table",
-345|          "headers": [
-346|            "Office",
-347|            "Location",
-348|            "Jurisdiction"
-349|          ],
-350|          "rows": [
-351|            [
-352|              "RTO Bhopal (RTO-47)",
-353|              "Govindpura, Near TT Nagar",
-354|              "Bhopal city & rural areas"
-355|            ],
-356|            [
-357|              "ARTO Bhopal",
-358|              "Habibganj",
-359|              "Some Bhopal zones"
-360|            ]
-361|          ]
-362|        },
-363|        {
-364|          "type": "h2",
-365|          "text": "Step 1: Visit the MP Parivahan Website"
-366|        },
-367|        {
-368|          "type": "step",
-369|          "title": "Go to MP Parivahan Portal",
-370|          "text": "Open https://parivahan.mpg.gov.in or https://sarathi.parivahan.gov.in. The Sarathi portal is the central system used across India."
-371|        },
-372|        {
-373|          "type": "step",
-374|          "title": "Select Madhya Pradesh & Bhopal",
-375|          "text": "Choose Madhya Pradesh as the state and then select Bhopal (RTO-47 or the relevant RTO office) as your RTO."
-376|        },
-377|        {
-378|          "type": "h2",
-379|          "text": "Step 2: Choose Service Type"
-380|        },
-381|        {
-382|          "type": "p",
-383|          "text": "You'll see different options. Select what you need:"
-384|        },
-385|        {
-386|          "type": "ul",
-387|          "items": [
-388|            "New Learner's License (LLR) — First-time applicant for a learning license",
-389|            "New Driving License (DL) — After completing your learner's license period (minimum 30 days for non-transport, 60 days for transport)",
-390|            "Renewal — If your DL has expired",
-391|            "Duplicate DL — If your license is lost or damaged"
-392|          ]
-393|        },
-394|        {
-395|          "type": "h2",
-396|          "text": "Step 3: Fill Application Form"
-397|        },
-398|        {
-399|          "type": "p",
-400|          "text": "Fill in your personal details: name, date of birth, address, and Aadhaar number. You can save your application number for future reference — note it down."
-401|        },
-402|        {
-403|          "type": "h2",
-404|          "text": "Step 4: Book Your Slot"
-405|        },
-406|        {
-407|          "type": "step",
-408|          "title": "Select Date and Time",
-409|          "text": "The portal shows available dates and time slots for your chosen RTO. Morning slots (10 AM - 1 PM) are usually available. Pick a time that works for you."
-410|        },
-411|        {
-412|          "type": "step",
-413|          "title": "Pay the Fee Online",
-414|          "text": "Fees can be paid via debit card, credit card, net banking, or UPI. The fee structure (approximate):"
-415|        },
-416|        {
-417|          "type": "table",
-418|          "headers": [
-419|            "Service",
-420|            "Fee (approx)"
-421|          ],
-422|          "rows": [
-423|            [
-424|              "Learner's License (LLR)",
-425|              "₹150 + test fee"
-426|            ],
-427|            [
-428|              "Driving License (DL) Non-Transport",
-429|              "₹200 + test fee"
-430|            ],
-431|            [
-432|              "DL Transport",
-433|              "₹300 + test fee"
-434|            ],
-435|            [
-436|              "Renewal (after 5 years)",
-437|              "₹200"
-438|            ]
-439|          ]
-440|        },
-441|        {
-442|          "type": "step",
-443|          "title": "Get Confirmation",
-444|          "text": "After payment, you'll receive a confirmation SMS and email with your slot details. Save this — you'll need it at the RTO."
-445|        },
-446|        {
-447|          "type": "h2",
-448|          "text": ""
-449|        },
-450|        {
-451|          "type": "tip",
-452|          "text": "Slots at Bhopal RTO fill up fast, especially at the start of the month. Book at least 1-2 weeks in advance during peak seasons (April-June and November-December when students apply)."
-453|        },
-454|        {
-455|          "type": "h2",
-456|          "text": "What to Bring to the RTO"
-457|        },
-458|        {
-459|          "type": "ul",
-460|          "items": [
-461|            "Printed application form (from Sarathi portal)",
-462|            "Original Aadhaar card + photocopy",
-463|            "Address proof (electricity bill, bank statement, etc.)",
-464|            "Passport-size photographs (4-6 copies)",
-465|            "Medical certificate (Form 1-A) from a registered doctor",
-466|            "Fee payment receipt (online payment proof)",
-467|            "For DL test: your own vehicle (two-wheeler or car) + helmet"
-468|          ]
-469|        },
-470|        {
-471|          "type": "h2",
-472|          "text": "Frequently Asked Questions"
-473|        },
-474|        {
-475|          "type": "h3",
-476|          "text": "Can I book a DL slot without going online?"
-477|        },
-478|        {
-479|          "type": "p",
-480|          "text": "No, slot booking is fully online through the Sarathi portal. However, you can visit the RTO help desk and they can assist you with the online booking."
-481|        },
-482|        {
-483|          "type": "h3",
-484|          "text": "What if I miss my slot?"
-485|        },
-486|        {
-487|          "type": "p",
-488|          "text": "If you miss your appointment, you'll need to book a new slot. The previous fee is generally not refundable. Always reach the RTO at least 30 minutes before your slot time."
-489|        }
-490|      ]
-491|    },
-492|    {
-493|      "slug": "pan-card-apply-online-free",
-494|      "title": "PAN Card Apply Online Free – Step by Step Guide 2026 (NSDL & UTIITSL)",
-495|      "category": "pan",
-496|      "description": "Apply for a new PAN card online free of cost. Complete guide for NSDL and UTIITSL portal. Track application status and get e-PAN instantly.",
-497|      "date": "2026-06-09",
-498|      "readTime": "6 min",
-499|      "content": [
-500|        {
-501|
+{
+  "site": {
+    "name": "BharatGuide",
+    "tagline": "Your complete guide to India's digital services \u2014 Aadhaar, PAN, DigiLocker, government schemes & more",
+    "description": "Step-by-step guides for India's digital services. Learn how to apply for Aadhaar, PAN, passport, driving license, scholarships and more. Simple, accurate, updated for 2026.",
+    "url": "https://joonsaify.github.io/bharatguide",
+    "language": "en"
+  },
+  "categories": [
+    {
+      "slug": "aadhaar",
+      "name": "Aadhaar",
+      "icon": "\ud83c\udd94",
+      "description": "Aadhaar card enrollment, update, download & status"
+    },
+    {
+      "slug": "pan",
+      "name": "PAN Card",
+      "icon": "\ud83d\udcb3",
+      "description": "PAN card apply, track, link & corrections"
+    },
+    {
+      "slug": "digilocker",
+      "name": "DigiLocker",
+      "icon": "\ud83d\udd10",
+      "description": "DigiLocker account, document upload & verification"
+    },
+    {
+      "slug": "driving-license",
+      "name": "Driving License",
+      "icon": "\ud83d\ude97",
+      "description": "DL apply, slot booking, renewal & test tips for Bhopal & MP"
+    },
+    {
+      "slug": "scholarships",
+      "name": "Scholarships",
+      "icon": "\ud83c\udf93",
+      "description": "MP scholarship, NSP, post-matric & pre-matric schemes"
+    },
+    {
+      "slug": "passport",
+      "name": "Passport",
+      "icon": "\u2708\ufe0f",
+      "description": "Passport application, appointment, status & renewal"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "how-to-check-aadhaar-status-online",
+      "title": "How to Check Aadhaar Status Online \u2013 Step by Step Guide 2026",
+      "category": "aadhaar",
+      "description": "Check your Aadhaar enrollment or update status online at uidai.gov.in. Complete step-by-step guide with screenshots for 2026.",
+      "date": "2026-06-09",
+      "readTime": "4 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "Applied for a new Aadhaar card or requested an update? Knowing how to check your Aadhaar status online saves you from unnecessary trips to the enrollment center. This guide covers every method to check Aadhaar status in 2026."
+        },
+        {
+          "type": "h2",
+          "text": "What is Aadhaar Status?"
+        },
+        {
+          "type": "p",
+          "text": "Aadhaar status tells you whether your enrollment or update request has been processed by UIDAI. Common statuses include:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Under Process \u2014 Your application is being verified",
+            "Generated \u2014 Aadhaar has been issued (download available)",
+            "Sent for Printing \u2014 Aadhaar letter is being printed",
+            "Dispatched \u2014 Physical letter has been sent via India Post",
+            "Rejected \u2014 Issue with documents or biometrics"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Method 1: Check Aadhaar Status on UIDAI Website"
+        },
+        {
+          "type": "step",
+          "title": "Step 1: Visit the UIDAI Website",
+          "text": "Go to https://uidai.gov.in. This is the official UIDAI portal. Look for the 'Check Aadhaar Status' option under the 'My Aadhaar' section."
+        },
+        {
+          "type": "step",
+          "title": "Step 2: Enter Your Enrollment ID (EID)",
+          "text": "Your Enrollment ID is a 14-digit number printed on the acknowledgement slip you received during enrollment. It usually looks like 1234/56789/12345."
+        },
+        {
+          "type": "step",
+          "title": "Step 3: Enter Date and Time",
+          "text": "Enter the date and time shown on your acknowledgement slip. This helps UIDAI verify your application."
+        },
+        {
+          "type": "step",
+          "title": "Step 4: Enter Captcha and Submit",
+          "text": "Type the captcha code shown on screen and click 'Check Status'. Your current Aadhaar status will be displayed."
+        },
+        {
+          "type": "tip",
+          "text": "Keep your acknowledgement slip safe \u2014 it contains the Enrollment ID and date/time needed to check status. Take a photo of it on your phone."
+        },
+        {
+          "type": "h2",
+          "text": "Method 2: Check via mAadhaar App"
+        },
+        {
+          "type": "p",
+          "text": "The official mAadhaar app (available on Google Play Store) lets you check Aadhaar status on your phone. Download the app, register with your mobile number, and use the 'Check Status' feature. No EID needed if you're already registered."
+        },
+        {
+          "type": "h2",
+          "text": "Method 3: Check via SMS (Offline)"
+        },
+        {
+          "type": "p",
+          "text": "Send an SMS in this format to 51969 or 166 (or the number specified by UIDAI for your circle):"
+        },
+        {
+          "type": "code",
+          "text": "UIDSTATUS <14-digit Enrollment ID>"
+        },
+        {
+          "type": "p",
+          "text": "You'll receive an SMS with your current Aadhaar status. Standard SMS charges apply."
+        },
+        {
+          "type": "h2",
+          "text": "What to Do If Aadhaar Status Shows Rejected?"
+        },
+        {
+          "type": "p",
+          "text": "If your status shows 'Rejected', don't panic. Common reasons include unclear photographs, mismatched biometrics, or incomplete documents. Visit the nearest Aadhaar enrollment center with correct documents and re-enroll. There is no fee for re-enrollment."
+        },
+        {
+          "type": "h2",
+          "text": "How Long Does Aadhaar Take?"
+        },
+        {
+          "type": "p",
+          "text": "Aadhaar typically takes 60-90 days from enrollment to generation. Update requests (address change, mobile update) usually process faster \u2014 around 2-3 weeks. During peak periods it may take longer."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Status",
+            "What It Means",
+            "Action Needed"
+          ],
+          "rows": [
+            [
+              "Under Process",
+              "Verification in progress",
+              "Wait 2-3 more weeks"
+            ],
+            [
+              "Generated",
+              "Aadhaar issued",
+              "Download e-Aadhaar now"
+            ],
+            [
+              "Sent for Printing",
+              "Card being printed",
+              "No action needed"
+            ],
+            [
+              "Dispatched",
+              "Letter sent via post",
+              "Track on India Post"
+            ],
+            [
+              "Rejected",
+              "Documents/biometrics failed",
+              "Visit enrollment center"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "type": "h3",
+          "text": "Can I check Aadhaar status without enrollment ID?"
+        },
+        {
+          "type": "p",
+          "text": "No, the Enrollment ID (EID) is required to check status on the website. If you lost your acknowledgement slip, visit the enrollment center where you applied \u2014 they can provide a duplicate."
+        },
+        {
+          "type": "h3",
+          "text": "Is the mAadhaar app free?"
+        },
+        {
+          "type": "p",
+          "text": "Yes, the mAadhaar app is completely free to download and use. It's the official app from UIDAI and works on all Android phones."
+        }
+      ]
+    },
+    {
+      "slug": "digilocker-marksheet-download-2026",
+      "title": "DigiLocker Marksheet Download 2026 \u2013 How to Get Class 10, 12 & College Documents",
+      "category": "digilocker",
+      "description": "Step-by-step guide to download CBSE, MP Board, ICSE marksheets from DigiLocker. Free government digital document service for students.",
+      "date": "2026-06-09",
+      "readTime": "5 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "DigiLocker has made it incredibly easy to access your academic marksheets and certificates online. Whether you passed Class 10th or 12th this year or graduated years ago, here's exactly how to download your marksheets from DigiLocker."
+        },
+        {
+          "type": "h2",
+          "text": "What is DigiLocker?"
+        },
+        {
+          "type": "p",
+          "text": "DigiLocker is a flagship initiative of the Indian Government under the Digital India program. It provides citizens a secure cloud-based platform to store, share, and verify digital documents. Over 300+ issuing agencies (CBSE, state boards, universities) are integrated."
+        },
+        {
+          "type": "h2",
+          "text": "Step 1: Sign Up for DigiLocker"
+        },
+        {
+          "type": "p",
+          "text": "Visit https://digilocker.gov.in or download the DigiLocker app from Google Play Store."
+        },
+        {
+          "type": "step",
+          "title": "Register with Aadhaar",
+          "text": "Click 'Sign Up' and enter your 12-digit Aadhaar number. An OTP will be sent to the mobile number registered with Aadhaar. Enter the OTP to verify."
+        },
+        {
+          "type": "step",
+          "title": "Set a 6-Digit PIN",
+          "text": "After OTP verification, create a 6-digit security PIN. This PIN will be required every time you open DigiLocker."
+        },
+        {
+          "type": "tip",
+          "text": "If your Aadhaar mobile number is not registered, visit the nearest Aadhaar enrollment center to update it. Alternatively, use the 'Register without Aadhaar' option with your mobile number \u2014 but Aadhaar-linked accounts get access to more documents."
+        },
+        {
+          "type": "h2",
+          "text": "Step 2: Find Your Marksheet"
+        },
+        {
+          "type": "step",
+          "title": "Go to 'Issued Documents'",
+          "text": "After logging in, click on 'Issued Documents' section. This shows all documents that government agencies have directly issued to your DigiLocker."
+        },
+        {
+          "type": "step",
+          "title": "Search for Your Board/University",
+          "text": "Type your board name (e.g., 'CBSE', 'MP Board', 'ICSE') or university name in the search bar. DigiLocker will show available document types."
+        },
+        {
+          "type": "step",
+          "title": "Select Marksheet Document",
+          "text": "Click on the marksheet or certificate option. You might need to enter your roll number and year of passing for verification."
+        },
+        {
+          "type": "h2",
+          "text": "Step 3: Download or Share"
+        },
+        {
+          "type": "p",
+          "text": "Once the document opens, you can:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Click 'Download' to save a PDF copy to your phone/computer",
+            "Use 'Share' to send a digitally signed copy via email or WhatsApp",
+            "Use the URI (document ID) for online verification by colleges and employers"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Documents Available on DigiLocker for MP Students"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "MP Board (MPBSE) Class 10 Marksheet",
+            "MP Board (MPBSE) Class 12 Marksheet",
+            "CBSE Class 10 & 12 Marksheet (all regions including Bhopal)",
+            "Voter ID (EPIC)",
+            "Driving License",
+            "Vehicle RC",
+            "Ration Card",
+            "Caste Certificate"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Why Use DigiLocker?"
+        },
+        {
+          "type": "p",
+          "text": "DigiLocker documents are legally valid under the IT Act, 2000. They are accepted by most government offices, colleges, and employers. You never need to carry physical copies \u2014 just show the DigiLocker app."
+        },
+        {
+          "type": "tip",
+          "text": "After downloading, save a backup on Google Drive or your computer. While DigiLocker is permanent, having offline access is always helpful during internet outages."
+        },
+        {
+          "type": "h2",
+          "text": "Troubleshooting"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "No documents found? Your board might not have uploaded them yet. Check back after 2-3 weeks of results.",
+            "Forgot PIN? Use 'Forgot PIN' option on login screen. You'll receive an OTP on your registered mobile.",
+            "Aadhaar not linking? Ensure your name and DOB match exactly with Aadhaar details."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "how-to-book-driving-license-slot-bhopal",
+      "title": "How to Book Driving License Slot in Bhopal \u2013 RTO Appointment Guide 2026",
+      "category": "driving-license",
+      "description": "Complete guide to book DL slot at Bhopal RTO. Online appointment for learner's license and driving license test at MP RTO offices.",
+      "date": "2026-06-09",
+      "readTime": "6 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "Booking a driving license slot at Bhopal RTO doesn't have to be confusing. Whether you're applying for a Learner's License (LLR) or the permanent Driving License (DL), here is the exact process for 2026."
+        },
+        {
+          "type": "h2",
+          "text": "Bhopal RTO Offices"
+        },
+        {
+          "type": "p",
+          "text": "Bhopal has two main RTO offices where you can book slots:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Office",
+            "Location",
+            "Jurisdiction"
+          ],
+          "rows": [
+            [
+              "RTO Bhopal (RTO-47)",
+              "Govindpura, Near TT Nagar",
+              "Bhopal city & rural areas"
+            ],
+            [
+              "ARTO Bhopal",
+              "Habibganj",
+              "Some Bhopal zones"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Step 1: Visit the MP Parivahan Website"
+        },
+        {
+          "type": "step",
+          "title": "Go to MP Parivahan Portal",
+          "text": "Open https://parivahan.mpg.gov.in or https://sarathi.parivahan.gov.in. The Sarathi portal is the central system used across India."
+        },
+        {
+          "type": "step",
+          "title": "Select Madhya Pradesh & Bhopal",
+          "text": "Choose Madhya Pradesh as the state and then select Bhopal (RTO-47 or the relevant RTO office) as your RTO."
+        },
+        {
+          "type": "h2",
+          "text": "Step 2: Choose Service Type"
+        },
+        {
+          "type": "p",
+          "text": "You'll see different options. Select what you need:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "New Learner's License (LLR) \u2014 First-time applicant for a learning license",
+            "New Driving License (DL) \u2014 After completing your learner's license period (minimum 30 days for non-transport, 60 days for transport)",
+            "Renewal \u2014 If your DL has expired",
+            "Duplicate DL \u2014 If your license is lost or damaged"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Step 3: Fill Application Form"
+        },
+        {
+          "type": "p",
+          "text": "Fill in your personal details: name, date of birth, address, and Aadhaar number. You can save your application number for future reference \u2014 note it down."
+        },
+        {
+          "type": "h2",
+          "text": "Step 4: Book Your Slot"
+        },
+        {
+          "type": "step",
+          "title": "Select Date and Time",
+          "text": "The portal shows available dates and time slots for your chosen RTO. Morning slots (10 AM - 1 PM) are usually available. Pick a time that works for you."
+        },
+        {
+          "type": "step",
+          "title": "Pay the Fee Online",
+          "text": "Fees can be paid via debit card, credit card, net banking, or UPI. The fee structure (approximate):"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Service",
+            "Fee (approx)"
+          ],
+          "rows": [
+            [
+              "Learner's License (LLR)",
+              "\u20b9150 + test fee"
+            ],
+            [
+              "Driving License (DL) Non-Transport",
+              "\u20b9200 + test fee"
+            ],
+            [
+              "DL Transport",
+              "\u20b9300 + test fee"
+            ],
+            [
+              "Renewal (after 5 years)",
+              "\u20b9200"
+            ]
+          ]
+        },
+        {
+          "type": "step",
+          "title": "Get Confirmation",
+          "text": "After payment, you'll receive a confirmation SMS and email with your slot details. Save this \u2014 you'll need it at the RTO."
+        },
+        {
+          "type": "h2",
+          "text": ""
+        },
+        {
+          "type": "tip",
+          "text": "Slots at Bhopal RTO fill up fast, especially at the start of the month. Book at least 1-2 weeks in advance during peak seasons (April-June and November-December when students apply)."
+        },
+        {
+          "type": "h2",
+          "text": "What to Bring to the RTO"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Printed application form (from Sarathi portal)",
+            "Original Aadhaar card + photocopy",
+            "Address proof (electricity bill, bank statement, etc.)",
+            "Passport-size photographs (4-6 copies)",
+            "Medical certificate (Form 1-A) from a registered doctor",
+            "Fee payment receipt (online payment proof)",
+            "For DL test: your own vehicle (two-wheeler or car) + helmet"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "type": "h3",
+          "text": "Can I book a DL slot without going online?"
+        },
+        {
+          "type": "p",
+          "text": "No, slot booking is fully online through the Sarathi portal. However, you can visit the RTO help desk and they can assist you with the online booking."
+        },
+        {
+          "type": "h3",
+          "text": "What if I miss my slot?"
+        },
+        {
+          "type": "p",
+          "text": "If you miss your appointment, you'll need to book a new slot. The previous fee is generally not refundable. Always reach the RTO at least 30 minutes before your slot time."
+        }
+      ]
+    },
+    {
+      "slug": "pan-card-apply-online-free",
+      "title": "PAN Card Apply Online Free \u2013 Step by Step Guide 2026 (NSDL & UTIITSL)",
+      "category": "pan",
+      "description": "Apply for a new PAN card online free of cost. Complete guide for NSDL and UTIITSL portal. Track application status and get e-PAN instantly.",
+      "date": "2026-06-09",
+      "readTime": "6 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "A PAN (Permanent Account Number) card is essential for filing income tax, opening a bank account, making large transactions, and many other financial activities. The good news: applying for a PAN card is completely free online. Here is the exact process for 2026."
+        },
+        {
+          "type": "h2",
+          "text": "Who Needs a PAN Card?"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Anyone earning taxable income in India",
+            "Students receiving scholarships (often required)",
+            "Anyone making transactions above \u20b92.5 lakh",
+            "Anyone opening a Demat account or investing in mutual funds",
+            "NRIs with Indian financial interests"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Two Ways to Apply Online (Both Free)"
+        },
+        {
+          "type": "h3",
+          "text": "Option 1: NSDL Portal"
+        },
+        {
+          "type": "step",
+          "title": "Visit NSDL PAN Portal",
+          "text": "Go to https://www.tin-nsdl.com/services/pan/pan-index.html or directly to the NSDL e-Gov PAN portal."
+        },
+        {
+          "type": "step",
+          "title": "Select 'Apply New PAN' (Form 49A)",
+          "text": "Form 49A is for Indian citizens. If you're an NRI, Form 49AA applies. Select the correct form."
+        },
+        {
+          "type": "step",
+          "title": "Fill Application Form",
+          "text": "Enter your personal details: name (exactly as on Aadhaar), date of birth, father's name, address, email, and mobile number. Double-check spelling \u2014 any mismatch with Aadhaar can cause rejection."
+        },
+        {
+          "type": "step",
+          "title": "Submit and Get Acknowledgement",
+          "text": "After submission, you'll receive a 15-digit acknowledgement number. Save this \u2014 you'll use it to track your application."
+        },
+        {
+          "type": "h3",
+          "text": "Option 2: UTIITSL Portal"
+        },
+        {
+          "type": "step",
+          "title": "Visit UTIITSL",
+          "text": "Go to https://www.utiitsl.com and select 'PAN Card Services' \u2192 'Apply for New PAN'."
+        },
+        {
+          "type": "step",
+          "title": "Fill and Submit",
+          "text": "The process is similar to NSDL. UTIITSL also offers doorstep service in many cities."
+        },
+        {
+          "type": "tip",
+          "text": "Both NSDL and UTIITSL are government-authorized agencies. Neither charges a fee for e-PAN issuance. Physical PAN card delivery has a nominal speed-post charge (\u20b950-80)."
+        },
+        {
+          "type": "h2",
+          "text": "Instant e-PAN: Get PAN in 5 Minutes"
+        },
+        {
+          "type": "p",
+          "text": "If you have Aadhaar, you can get an instant e-PAN completely free. Visit https://www.utiitsl.com \u2192 Instant e-PAN. Your Aadhaar-linked mobile will receive an OTP. After verification, your PAN is generated instantly and sent to your registered email."
+        },
+        {
+          "type": "h2",
+          "text": "How to Track PAN Application Status"
+        },
+        {
+          "type": "step",
+          "title": "Go to Tracking Page",
+          "text": "Visit NSDL or UTIITSL tracking page. On NSDL, it's at https://tin.tin.nsdl.com/pan/StatusTrack.html."
+        },
+        {
+          "type": "step",
+          "title": "Enter Acknowledgement Number",
+          "text": "Type your 15-digit acknowledgement number and captcha code."
+        },
+        {
+          "type": "step",
+          "title": "Check Status",
+          "text": "Your status will show as: Under Process \u2192 Allotted \u2192 Dispatched. Once 'Allotted', you can download e-PAN immediately."
+        },
+        {
+          "type": "h2",
+          "text": "Documents Required"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Document Type",
+            "Accepted Documents"
+          ],
+          "rows": [
+            [
+              "Proof of Identity (PoI)",
+              "Aadhaar, Voter ID, Passport, Driving License"
+            ],
+            [
+              "Proof of Address (PoA)",
+              "Aadhaar, Passport, Bank Statement (last 3 months), Electricity Bill"
+            ],
+            [
+              "Proof of DOB",
+              "Aadhaar, Birth Certificate, Class 10 Marksheet, Passport"
+            ],
+            [
+              "Photograph",
+              "Recent passport-size photo (digital upload)"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Aadhaar is accepted as both Proof of Identity AND Proof of Address, making it the simplest document. Ensure your Aadhaar address is current."
+        },
+        {
+          "type": "h2",
+          "text": "Important Notes for Bhopal Residents"
+        },
+        {
+          "type": "p",
+          "text": "PAN is processed centrally (not at a local office), so your location doesn't affect processing time. However, if you need a physical PAN card delivered to Bhopal, it typically arrives within 7-15 working days via India Post Speed Post."
+        }
+      ]
+    },
+    {
+      "slug": "mp-scholarship-online-apply-2026",
+      "title": "MP Scholarship 2026 \u2013 How to Apply Online for MPPSC, Post-Matric & Pre-Matric Schemes",
+      "category": "scholarships",
+      "description": "Complete guide to apply for Madhya Pradesh scholarships online. Post-matric, pre-matric, MPPSC, and MPSOS scholarships for MP students.",
+      "date": "2026-06-09",
+      "readTime": "5 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "Madhya Pradesh offers several scholarship schemes for students from Class 1 to postgraduate level. If you're a student from Bhopal or anywhere in MP, here's how to apply for scholarships online in 2026."
+        },
+        {
+          "type": "h2",
+          "text": "Major MP Scholarship Schemes"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Scheme",
+            "Who It's For",
+            "Amount (Annual)"
+          ],
+          "rows": [
+            [
+              "Post-Matric SC/ST/OBC (MBC)",
+              "Class 11 onwards",
+              "\u20b95,000 - \u20b920,000"
+            ],
+            [
+              "Pre-Matric SC/ST/OBC",
+              "Class 1 to 10",
+              "\u20b91,000 - \u20b96,000"
+            ],
+            [
+              "MP MPPSC Medhavi Chhattra Yojana",
+              "Meritorious students (after Class 12)",
+              "\u20b950,000 - \u20b91,00,000"
+            ],
+            [
+              "MPSOS Scholarship",
+              "Open school students",
+              "\u20b92,000 - \u20b910,000"
+            ],
+            [
+              "National Scholarship Portal (NSP)",
+              "All categories (central schemes)",
+              "Various"
+            ],
+            [
+              "Eklavya Scholarship",
+              "SC/ST students for higher education",
+              "\u20b925,000 - \u20b960,000"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "How to Apply on MP Scholarship Portal"
+        },
+        {
+          "type": "step",
+          "title": "Visit the Official Portal",
+          "text": "Go to https://scholarshipportal.mp.nic.in (official MP scholarship portal). This is the central portal for all state scholarship schemes."
+        },
+        {
+          "type": "step",
+          "title": "Register/Login",
+          "text": "First-time users need to register with their Aadhaar number and mobile. Already registered? Simply log in with your credentials."
+        },
+        {
+          "type": "step",
+          "title": "Fill Application Form",
+          "text": "Select your caste category, scheme type, and enter personal, academic, and bank details. Upload required documents in the specified format (PDF/JPG, under 200KB each)."
+        },
+        {
+          "type": "step",
+          "title": "Verify and Submit",
+          "text": "Review all information carefully. Submit the form and save the acknowledgement number."
+        },
+        {
+          "type": "step",
+          "title": "Institution Verification",
+          "text": "After submission, your educational institution's head (principal/HOD) must verify your application on the portal. Follow up with your institution after 3-4 days."
+        },
+        {
+          "type": "tip",
+          "text": "Keep scanned copies of all documents ready before starting: Aadhaar, caste certificate, income certificate (below 2.5 LPA for OBC), bank passbook, previous year marksheet, and passport photo."
+        },
+        {
+          "type": "h2",
+          "text": "How to Apply via National Scholarship Portal (NSP)"
+        },
+        {
+          "type": "step",
+          "title": "Visit NSP",
+          "text": "Go to https://scholarships.gov.in and register with your mobile number and email."
+        },
+        {
+          "type": "step",
+          "title": "Search for MP Schemes",
+          "text": "Use the search to find central schemes applicable to MP students. Apply and submit as above."
+        },
+        {
+          "type": "h2",
+          "text": "Scholarship Deadlines for 2026"
+        },
+        {
+          "type": "p",
+          "text": "Most MP scholarship applications open between July-September after the academic year starts. Late applications are rarely accepted. Set a reminder for mid-July 2026 to check the portal."
+        },
+        {
+          "type": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "type": "h3",
+          "text": "Can I apply without an income certificate?"
+        },
+        {
+          "type": "p",
+          "text": "Some schemes require income certificates. Visit your local Tehsil office or apply online on the MP e-District portal (https://edistrict.mp.gov.in) to get one."
+        },
+        {
+          "type": "h3",
+          "text": "What bank account is needed?"
+        },
+        {
+          "type": "p",
+          "text": "A savings account in any nationalized bank with IFSC code. The account should be in the student's name (joint accounts with parents are accepted in some schemes)."
+        },
+        {
+          "type": "h3",
+          "text": "How long does verification take?"
+        },
+        {
+          "type": "p",
+          "text": "After submission, institute verification takes 1-2 weeks. District-level verification takes another 2-4 weeks. Scholarship amounts are disbursed in 1-2 installments per academic year."
+        }
+      ]
+    },
+    {
+      "slug": "passport-apply-bhopal-appointment",
+      "title": "Passport Application in Bhopal \u2013 How to Book Appointment at PSK & Get Passport Fast",
+      "category": "passport",
+      "description": "Complete guide to apply for a passport in Bhopal. Book appointment at Bhopal Passport Seva Kendra, document checklist, fees, and tracking.",
+      "date": "2026-06-09",
+      "readTime": "6 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "Planning to apply for a passport in Bhopal? The process is now mostly online, and if you follow the right steps, you can get your passport in 7-10 working days. Here is the complete guide for 2026."
+        },
+        {
+          "type": "h2",
+          "text": "Bhopal Passport Seva Kendra (PSK)"
+        },
+        {
+          "type": "p",
+          "text": "Bhopal has one Passport Seva Kendra (PSK) that handles all passport applications:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Location: Passport Seva Kendra, 1st Floor, A-Wing, Paryavaran Parisar, E-5, Arera Colony, Bhopal - 462016",
+            "Working Hours: Monday to Friday, 9:00 AM to 5:00 PM",
+            "Phone: 1800-258-1800 (toll-free)"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Step 1: Online Application"
+        },
+        {
+          "type": "step",
+          "title": "Visit Passport Seva Website",
+          "text": "Go to https://portal2.passportindia.gov.in and register with your email and mobile number."
+        },
+        {
+          "type": "step",
+          "title": "Fill the Application Form",
+          "text": "Select 'Apply for Fresh Passport/Re-issue'. Enter all details carefully \u2014 name, DOB, address must match your supporting documents exactly."
+        },
+        {
+          "type": "step",
+          "title": "Pay the Fee",
+          "text": "Fees are paid online after form submission. Current fee structure:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Passport Type",
+            "Fee (\u20b9)",
+            "Validity"
+          ],
+          "rows": [
+            [
+              "36-page (Normal)",
+              "\u20b91,500",
+              "10 years"
+            ],
+            [
+              "60-page (Jumbo)",
+              "\u20b92,000",
+              "10 years"
+            ],
+            [
+              "Tatkaal (Normal)",
+              "\u20b92,000 + \u20b91,000 Tatkaal fee",
+              "10 years"
+            ],
+            [
+              "Re-issue (Normal)",
+              "\u20b91,500",
+              "10 years"
+            ]
+          ]
+        },
+        {
+          "type": "step",
+          "title": "Book Appointment at Bhopal PSK",
+          "text": "After payment, the portal shows available appointment slots at Bhopal PSK. Choose a date and time. Tatkaal appointments are available separately but have limited slots."
+        },
+        {
+          "type": "tip",
+          "text": "Normal appointments are available 2-4 weeks ahead. Tatkaal (expedited) appointments can be booked 2-5 days ahead but are more expensive. The Tatkaal quota opens at 9:00 AM daily \u2014 book early."
+        },
+        {
+          "type": "h2",
+          "text": "Step 2: Visit PSK with Documents"
+        },
+        {
+          "type": "p",
+          "text": "Required documents checklist:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Printed application form (with barcode)",
+            "Original Aadhaar + photocopy (Proof of Address + ID)",
+            "Original date of birth proof (Class 10 marksheet / birth certificate / Aadhaar)",
+            "Address proof (Aadhaar / Voter ID / electricity bill / rent agreement)",
+            "Passport-size photos (white background, 2\"x2\") \u2014 photos are taken at PSK anyway",
+            "Existing passport (if re-issue)",
+            "Marriage certificate (if name changed after marriage)"
+          ]
+        },
+        {
+          "type": "step",
+          "title": "At the PSK",
+          "text": "Reach 30 minutes before your slot. Process: document verification \u2192 photographs \u2192 biometrics (fingerprints) \u2192 police verification is initiated automatically. The entire process takes 2-3 hours at the PSK."
+        },
+        {
+          "type": "h2",
+          "text": "Step 3: Police Verification"
+        },
+        {
+          "type": "p",
+          "text": "After your PSK visit, local police will visit your residence for verification. In Bhopal, this is usually completed within 5-7 days. Ensure someone is home during working hours. Carry the acknowledgement receipt."
+        },
+        {
+          "type": "warning",
+          "text": "If you submit incorrect address details, police verification will fail and your application will be rejected. Double-check all address details before applying."
+        },
+        {
+          "type": "h2",
+          "text": "Step 4: Passport Dispatch"
+        },
+        {
+          "type": "p",
+          "text": "Once police verification is cleared (usually 3-5 working days after police report submission), your passport is printed and dispatched via Speed Post. Track your application on the Passport Seva portal using your ARN (Application Reference Number)."
+        },
+        {
+          "type": "h2",
+          "text": "Bhopal Passport Timelines"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Process",
+            "Normal",
+            "Tatkaal"
+          ],
+          "rows": [
+            [
+              "Appointment available",
+              "2-4 weeks",
+              "2-5 days"
+            ],
+            [
+              "PSK processing",
+              "1 day",
+              "1 day"
+            ],
+            [
+              "Police verification",
+              "5-7 days",
+              "2-3 days"
+            ],
+            [
+              "Passport dispatch",
+              "3-5 days",
+              "2-3 days"
+            ],
+            [
+              "Total (approx)",
+              "2-3 weeks",
+              "5-8 days"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "how-to-link-aadhaar-pan-online",
+      "title": "How to Link Aadhaar with PAN Online \u2013 Step by Step Guide 2026",
+      "category": "pan",
+      "description": "Link Aadhaar with PAN card online in 2 minutes. Follow this simple guide to link on Income Tax e-filing portal. Check status & avoid penalty.",
+      "date": "2026-06-10",
+      "readTime": "4 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "Linking your Aadhaar with PAN is mandatory for filing income tax returns and for PAN to remain valid. The process takes just 2 minutes online. Here is exactly how to do it."
+        },
+        {
+          "type": "h2",
+          "text": "Why Link Aadhaar with PAN?"
+        },
+        {
+          "type": "p",
+          "text": "As per the Income Tax Act, linking Aadhaar with PAN is mandatory. If you don't link, your PAN becomes inoperative, meaning you cannot file returns, make high-value transactions, or use PAN for financial purposes."
+        },
+        {
+          "type": "h2",
+          "text": "Method: Link on Income Tax e-Filing Portal"
+        },
+        {
+          "type": "step",
+          "title": "Visit Income Tax e-Filing Portal",
+          "text": "Go to https://www.incometax.gov.in and log in with your PAN and password. New users can register with PAN and Aadhaar."
+        },
+        {
+          "type": "step",
+          "title": "Go to 'Link Aadhaar' Section",
+          "text": "On the dashboard, click on 'Profile Settings' \u2192 'Link Aadhaar'. Alternatively, use the quick link on the homepage."
+        },
+        {
+          "type": "step",
+          "title": "Enter Aadhaar Number",
+          "text": "Enter your 12-digit Aadhaar number. Your name, DOB, and gender will auto-populate from PAN database. Verify they match your Aadhaar."
+        },
+        {
+          "type": "step",
+          "title": "Click 'Link Aadhaar'",
+          "text": "Click the button. An OTP will be sent to your Aadhaar-registered mobile. Enter the OTP to complete linking."
+        },
+        {
+          "type": "tip",
+          "text": "Use an OTP of \u20b910 is charged for this service (via the e-filing portal). SMS charges apply based on your operator. No GST or extra fees."
+        },
+        {
+          "type": "h2",
+          "text": "Alternative: Link via SMS or NSDL"
+        },
+        {
+          "type": "p",
+          "text": "You can also link by sending an SMS to 567678 or 56161 in the format: UIDPAN &lt;12 digit Aadhaar&gt; &lt;10 digit PAN&gt;. Or use the NSDL portal at https://www.tin-nsdl.com/services/pan/link-aadhaar.html."
+        },
+        {
+          "type": "h2",
+          "text": "How to Check if Aadhaar is Already Linked to PAN"
+        },
+        {
+          "type": "step",
+          "title": "Visit Income Tax Portal",
+          "text": "Go to the e-filing portal and navigate to 'Link Aadhaar Status'. Enter your PAN and Aadhaar to check if already linked."
+        },
+        {
+          "type": "step",
+          "title": "Alternative: Use Quick Link",
+          "text": "On the Income Tax homepage, use the 'Link Aadhaar Status' quick link. Enter PAN only to see linking status."
+        },
+        {
+          "type": "h2",
+          "text": "Common Issues & Fixes"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Issue",
+            "Solution"
+          ],
+          "rows": [
+            [
+              "Name mismatch between Aadhaar & PAN",
+              "Update name on Aadhaar (online at UIDAI) or PAN (via NSDL correction form)"
+            ],
+            [
+              "DOB mismatch",
+              "Update DOB on PAN via NSDL correction with proof (birth certificate, school marksheet)"
+            ],
+            [
+              "Mobile not linked to Aadhaar",
+              "Visit nearest Aadhaar enrollment center to update mobile number"
+            ],
+            [
+              "OTP not received",
+              "Wait 5 minutes and try again. If persistent, use SMS method instead"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Penalty for Not Linking"
+        },
+        {
+          "type": "p",
+          "text": "If PAN is not linked with Aadhaar, the PAN becomes 'inoperative'. You won't be able to file IT returns, pay taxes online using PAN, or make high-value transactions. There's a late fee of \u20b91,000 if linking is done after the deadline."
+        }
+      ]
+    },
+    {
+      "slug": "digilocker-how-to-upload-documents",
+      "title": "How to Upload Documents in DigiLocker \u2013 Step by Step Guide",
+      "category": "digilocker",
+      "description": "Learn how to upload your own documents (self-uploaded) in DigiLocker. Complete guide with screenshots and tips for Bharat students.",
+      "date": "2026-06-10",
+      "readTime": "4 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "While government-issued documents in DigiLocker are the most valuable, you can also upload your own documents (self-uploaded). This guide shows you how to do it step by step."
+        },
+        {
+          "type": "h2",
+          "text": "What You Can Upload"
+        },
+        {
+          "type": "p",
+          "text": "You can store digital copies of any document in your DigiLocker. Useful for:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "College ID cards",
+            "Previous marksheets not in the Issued Documents system",
+            "Experience certificates",
+            "Achievement certificates",
+            "Medical reports and prescriptions",
+            "Property documents (sale deed, registry)"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Step-by-Step Process"
+        },
+        {
+          "type": "step",
+          "title": "Open DigiLocker",
+          "text": "Open the DigiLocker app or go to https://digilocker.gov.in and log in with your Aadhaar and PIN."
+        },
+        {
+          "type": "step",
+          "title": "Go to 'Uploaded Documents'",
+          "text": "In the dashboard, select 'Uploaded Documents' section (different from Issued Documents). This is where your self-uploaded files live."
+        },
+        {
+          "type": "step",
+          "title": "Click '+' or 'Upload'",
+          "text": "Click the upload button. Select the document category (Academic, Medical, Identity, etc.) or create a custom label."
+        },
+        {
+          "type": "step",
+          "title": "Select File",
+          "text": "Choose a PDF or image file from your phone/computer. Maximum file size is 10MB per document. Supported formats: PDF, JPG, PNG."
+        },
+        {
+          "type": "step",
+          "title": "Add Document Name",
+          "text": "Give your document a clear name (e.g., 'B.Tech Semester 4 Marksheet'). This makes finding it later easy."
+        },
+        {
+          "type": "step",
+          "title": "Submit",
+          "text": "Click upload. Your document is now stored in DigiLocker and accessible from any device."
+        },
+        {
+          "type": "tip",
+          "text": "Self-uploaded documents are not 'verified' by any authority. For official verification, use the 'Issued Documents' section. However, many colleges and employers accept self-uploaded DigiLocker documents for internal purposes."
+        }
+      ]
+    },
+    {
+      "slug": "how-to-update-mobile-number-in-aadhaar",
+      "title": "How to Update Mobile Number in Aadhaar Online 2026",
+      "category": "aadhaar",
+      "description": "Update your mobile number in Aadhaar online. Step-by-step guide for UIDAI portal, mAadhaar app, and nearest enrollment center. Free process in 2026.",
+      "readTime": "5 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "Your Aadhaar-registered mobile number is essential for receiving OTPs, checking status, and using online services. If your number has changed, here is exactly how to update it in 2026."
+        },
+        {
+          "type": "h2",
+          "text": "Why Update Mobile Number in Aadhaar?"
+        },
+        {
+          "type": "p",
+          "text": "An updated mobile number lets you: download e-Aadhaar anytime, receive OTP for online verification, check Aadhaar status via SMS, use mAadhaar app, and link Aadhaar with PAN and bank accounts."
+        },
+        {
+          "type": "h2",
+          "text": "Method 1: Visit Aadhaar Enrollment Center (Recommended)"
+        },
+        {
+          "type": "step",
+          "title": "Find Nearest Center",
+          "text": "Visit https://appointments.uidai.gov.in to find your nearest Aadhaar enrollment center. Enter your PIN code and select 'Book Appointment'."
+        },
+        {
+          "type": "step",
+          "title": "Fill Aadhaar Correction Form",
+          "text": "Download Form Aadhaar Correction from UIDAI website. Fill in your details: name, Aadhaar number, old and new mobile number."
+        },
+        {
+          "type": "step",
+          "title": "Visit with Documents",
+          "text": "Take the filled form, your Aadhaar card copy, and any identity proof to the center. The process takes 10-15 minutes. Biometric verification is required."
+        },
+        {
+          "type": "tip",
+          "text": "This method is free. The mobile number is updated immediately in the UIDAI database after biometric verification. You'll receive a confirmation SMS on the new number."
+        },
+        {
+          "type": "h2",
+          "text": "Method 2: Self-Service Update Portal"
+        },
+        {
+          "type": "p",
+          "text": "Visit https://ssup.uidai.gov.in. Enter your Aadhaar number and the OTP sent to your registered mobile (if you still have access to the old number). You can request a mobile update, but final verification still requires the enrollment center visit."
+        },
+        {
+          "type": "h2",
+          "text": "Documents Required"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Aadhaar card (original or copy)",
+            "Identity proof (Aadhaar itself is usually sufficient)",
+            "Correction form (available at center)"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "What If You Don't Have Access to Old Mobile?"
+        },
+        {
+          "type": "p",
+          "text": "If your old number is no longer active, you must visit the enrollment center with biometric verification. There is no online-only method to change mobile number without access to the old number."
+        }
+      ],
+      "date": "2026-06-09"
+    },
+    {
+      "slug": "how-to-download-aadhaar-online",
+      "title": "How to Download Aadhaar Card Online \u2013 e-Aadhaar Download 2026",
+      "category": "aadhaar",
+      "description": "Download e-Aadhaar online from UIDAI website. Free, instant download using Aadhaar number, Enrolment ID, or Virtual ID. Step-by-step guide.",
+      "readTime": "4 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "You don't need to wait for the physical Aadhaar letter to arrive by post. You can download e-Aadhaar (digital copy) instantly from the UIDAI website. Here's how."
+        },
+        {
+          "type": "h2",
+          "text": "What is e-Aadhaar?"
+        },
+        {
+          "type": "p",
+          "text": "e-Aadhaar is a digitally signed PDF copy of your Aadhaar card. It is password-protected and legally valid everywhere the physical card is accepted. The password format is: first 4 letters of your name (as on Aadhaar) + year of birth (YYYY)."
+        },
+        {
+          "type": "h2",
+          "text": "Method 1: Download by Aadhaar Number"
+        },
+        {
+          "type": "step",
+          "title": "Visit UIDAI Website",
+          "text": "Go to https://eaadhaar.uidai.gov.in. This is the official e-Aadhaar download portal."
+        },
+        {
+          "type": "step",
+          "title": "Select 'Download Aadhaar'",
+          "text": "Click on 'Download Aadhaar' option. Select 'Aadhaar Number' as the input method."
+        },
+        {
+          "type": "step",
+          "title": "Enter Details",
+          "text": "Enter your 12-digit Aadhaar number, full name (as on Aadhaar), and PIN code. Complete the captcha."
+        },
+        {
+          "type": "step",
+          "title": "Request OTP",
+          "text": "Click 'Send OTP'. An OTP will be sent to your Aadhaar-registered mobile number."
+        },
+        {
+          "type": "step",
+          "title": "Download e-Aadhaar",
+          "text": "Enter the OTP and click 'Download'. A password-protected PDF will be downloaded. Use the password format: first 4 letters of name (CAPITAL) + YYYY birth year."
+        },
+        {
+          "type": "tip",
+          "text": "Download e-Aadhaar on multiple devices and keep a backup in cloud storage (Google Drive, iCloud). The password-protected PDF is safe to store digitally."
+        },
+        {
+          "type": "h2",
+          "text": "Method 2: Download by Enrollment ID"
+        },
+        {
+          "type": "p",
+          "text": "If you haven't received your Aadhaar yet, use your 14-digit Enrollment ID from the acknowledgement slip. The process is the same as above \u2014 select 'Enrolment ID' instead of 'Aadhaar Number'."
+        },
+        {
+          "type": "h2",
+          "text": "What If Your Mobile is Not Registered?"
+        },
+        {
+          "type": "p",
+          "text": "If your mobile is not linked to Aadhaar, you cannot download e-Aadhaar online. Visit the nearest Aadhaar enrollment center to update your mobile number first (see our guide: 'How to Update Mobile Number in Aadhaar')."
+        }
+      ],
+      "date": "2026-06-09"
+    },
+    {
+      "slug": "how-to-check-pan-card-status",
+      "title": "How to Check PAN Card Status Online 2026 \u2013 NSDL & UTIITSL Tracking",
+      "category": "pan",
+      "description": "Track your PAN card application status online via NSDL and UTIITSL portals. Check if PAN is allotted, dispatched, or pending. Instant tracking guide.",
+      "readTime": "4 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "Applied for a new PAN card or requested a correction? Here is how to check the status of your application on NSDL and UTIITSL portals."
+        },
+        {
+          "type": "h2",
+          "text": "Method 1: NSDL PAN Status Check"
+        },
+        {
+          "type": "step",
+          "title": "Visit NSDL Tracking Page",
+          "text": "Go to https://tin.tin.nsdl.com/pan/StatusTrack.html. This is the official NSDL PAN tracking page."
+        },
+        {
+          "type": "step",
+          "title": "Enter Application Number",
+          "text": "Enter your 15-digit acknowledgement number. You received this when you submitted your PAN application."
+        },
+        {
+          "type": "step",
+          "title": "Enter Captcha",
+          "text": "Type the captcha code and click 'Submit'. Your current status is displayed."
+        },
+        {
+          "type": "h2",
+          "text": "Method 2: UTIITSL PAN Status Check"
+        },
+        {
+          "type": "step",
+          "title": "Visit UTIITSL",
+          "text": "Go to https://www.utiitsl.com and select 'PAN Services' \u2192 'Track PAN Application'."
+        },
+        {
+          "type": "step",
+          "title": "Enter Details",
+          "text": "Enter your acknowledgement number and registered mobile number. You'll receive an OTP for verification."
+        },
+        {
+          "type": "step",
+          "title": "View Status",
+          "text": "After OTP verification, your complete application status with tracking details is displayed."
+        },
+        {
+          "type": "h2",
+          "text": "Understanding PAN Application Status"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Status",
+            "Meaning",
+            "Timeline"
+          ],
+          "rows": [
+            [
+              "Pending / Under Process",
+              "Application is being verified by NSDL/UTIITSL",
+              "1-3 working days"
+            ],
+            [
+              "Allotted",
+              "PAN has been generated",
+              "Immediate - download e-PAN"
+            ],
+            [
+              "Dispatched",
+              "Physical card sent via speed post",
+              "7-10 working days"
+            ],
+            [
+              "Delivered",
+              "Card delivered (tracking confirmation)",
+              "Check with your post office"
+            ],
+            [
+              "Rejected",
+              "Application had errors or incomplete documents",
+              "Re-apply with correct details"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Once status shows 'Allotted', you can immediately download e-PAN from NSDL/UTIITSL websites. You don't need to wait for the physical card."
+        }
+      ],
+      "date": "2026-06-09"
+    },
+    {
+      "slug": "driving-license-test-tips-bhopal",
+      "title": "Driving License Test Tips for Bhopal RTO \u2013 H& Track Test Guide 2026",
+      "category": "driving-license",
+      "description": "Pass your driving license test at Bhopal RTO. Complete guide for H-track, road test, reverse, and hill start. Tips, videos, and common mistakes.",
+      "readTime": "6 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "The driving test at Bhopal RTO can be nerve-wracking, but with the right preparation, you can pass it on your first attempt. This guide covers everything you need to know about the H-track test, road test, and common mistakes to avoid."
+        },
+        {
+          "type": "h2",
+          "text": "Types of Driving Tests"
+        },
+        {
+          "type": "p",
+          "text": "At Bhopal RTO, the driving test has two parts:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "H-Track (Ground Test) \u2014 For two-wheelers and four-wheelers. Tests your control in a marked H-shaped track.",
+            "Road Test \u2014 For four-wheelers (LMV). Tests your actual driving on city roads near the RTO."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "H-Track Test: What to Expect"
+        },
+        {
+          "type": "p",
+          "text": "The H-track is a rectangular space marked with cones. You must drive through it without touching any cones. Key elements:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Enter the track from the entry point",
+            "Drive in reverse around the H-shaped path",
+            "Exit without touching cones or stopping the engine",
+            "The entire test is observed by an RTO inspector"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Tips for H-Track Test"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Practice in an open ground before the test. Mark cones with water bottles.",
+            "Use your side mirrors constantly \u2014 they help you judge cone distance.",
+            "Move slowly \u2014 clutch control is key. The slower you go, the more time you have to adjust.",
+            "If you're about to hit a cone, stop and re-adjust instead of rushing.",
+            "For two-wheelers, keep your feet on the foot pegs (not on the ground) once you enter the track.",
+            "For cars, use the rearview and side mirrors to steer in reverse."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Road Test (LMV) Tips"
+        },
+        {
+          "type": "p",
+          "text": "For four-wheelers, the road test is conducted on actual roads near Bhopal RTO. The inspector sits beside you and evaluates:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Seatbelt check \u2014 MUST wear before starting the engine",
+            "Mirror adjustment \u2014 adjust mirrors before starting",
+            "Signal usage \u2014 use indicator for all turns and lane changes",
+            "Traffic rules \u2014 obey traffic lights, stop at zebra crossing, give way to pedestrians",
+            "Speed control \u2014 maintain steady speed; don't drive too fast or too slow",
+            "Clutch and gear control \u2014 smooth gear changes, no jerky movements"
+          ]
+        },
+        {
+          "type": "step",
+          "title": "Before Starting the Engine",
+          "text": "Fasten seatbelt \u2192 Adjust seat \u2192 Adjust mirrors \u2192 Check gear is in neutral \u2192 Start engine. The inspector notices all these steps."
+        },
+        {
+          "type": "step",
+          "title": "During the Drive",
+          "text": "Always use indicators for turns. Check mirrors every 10-15 seconds. Maintain safe following distance. Drive at 20-30 km/h on RTO roads."
+        },
+        {
+          "type": "step",
+          "title": "Common Mistakes That Fail",
+          "text": "Stopping the engine mid-test, touching cones in H-track, not using indicators, crossing the center line, not stopping at stop signs, aggressive driving."
+        },
+        {
+          "type": "tip",
+          "text": "Arrive at Bhopal RTO at least 1 hour before your scheduled slot. Park your vehicle, observe other test-takers, and practice mentally. Bring your own vehicle \u2014 you'll be comfortable with its controls."
+        }
+      ],
+      "date": "2026-06-09"
+    },
+    {
+      "slug": "passport-renewal-bhopal-online",
+      "title": "Passport Renewal in Bhopal \u2013 Online Re-issue Process 2026",
+      "category": "passport",
+      "description": "Renew your passport online from Bhopal. Complete guide for passport re-issue, appointment at Bhopal PSK, documents needed, and fees. Tatkaal option available.",
+      "readTime": "5 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "Is your passport expired or about to expire? You can renew it easily online. Here is the complete passport renewal (re-issue) process for Bhopal residents."
+        },
+        {
+          "type": "h2",
+          "text": "When to Renew Your Passport"
+        },
+        {
+          "type": "p",
+          "text": "You should apply for passport re-issue in these cases: passport expired, passport expiring within 1 year, no blank pages left for visas, change in personal details (name, address, appearance), damaged passport, or lost passport."
+        },
+        {
+          "type": "h2",
+          "text": "Step-by-Step Renewal Process"
+        },
+        {
+          "type": "step",
+          "title": "Visit Passport Seva Portal",
+          "text": "Go to https://portal2.passportindia.gov.in and log in with your registered account. If you don't have an account, create one with your email and mobile."
+        },
+        {
+          "type": "step",
+          "title": "Select 'Re-issue of Passport'",
+          "text": "Choose 'Re-issue of Passport' as the application type. Select the reason that applies to you (expired, expiring, change in appearance, etc.)."
+        },
+        {
+          "type": "step",
+          "title": "Fill the Application",
+          "text": "The form auto-fills many details from your previous passport. Verify and update any changed information, especially address, phone number, and emergency contact."
+        },
+        {
+          "type": "step",
+          "title": "Pay the Fee",
+          "text": "Fees are paid online. Standard re-issue fee (36-page): \u20b91,500. Jumbo (60-page): \u20b92,000. Tatkaal: add \u20b91,000 extra."
+        },
+        {
+          "type": "step",
+          "title": "Book Appointment at Bhopal PSK",
+          "text": "Select Bhopal Passport Seva Kendra as your PSK. Choose an available date and time. Normal appointments are available 2-3 weeks ahead."
+        },
+        {
+          "type": "step",
+          "title": "Visit PSK with Old Passport",
+          "text": "On the appointment day, carry your old passport, print of the application form, and address proof (if address has changed). Your old passport will be cancelled and returned with a hole punch."
+        },
+        {
+          "type": "h2",
+          "text": "Documents for Renewal"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Old passport (original + first/last page copy)",
+            "Passport application form (printed with barcode)",
+            "Address proof (only if address changed from previous passport)",
+            "Passport-size photos (white background)"
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "If your address hasn't changed from your previous passport, you don't need any address proof for renewal. The old passport serves as both identity and address proof."
+        }
+      ],
+      "date": "2026-06-09"
+    },
+    {
+      "slug": "digilocker-verify-documents-online",
+      "title": "How to Verify Documents on DigiLocker \u2013 QR Code & URI Verification Guide",
+      "category": "digilocker",
+      "description": "Verify digital documents from DigiLocker using QR code scan or URI link. Accepted by colleges, employers, and government offices across India.",
+      "readTime": "3 min",
+      "content": [
+        {
+          "type": "p",
+          "text": "One of the best features of DigiLocker is document verification. Employers, colleges, and government offices can instantly verify your documents without seeing the original. Here is how verification works."
+        },
+        {
+          "type": "h2",
+          "text": "What Makes DigiLocker Documents Verifiable?"
+        },
+        {
+          "type": "p",
+          "text": "Documents issued through DigiLocker's 'Issued Documents' section are digitally signed by the issuing authority (CBSE, MP Board, etc.). Each document has a unique QR code and a URI (Uniform Resource Identifier) that points to the verified copy on DigiLocker servers."
+        },
+        {
+          "type": "h2",
+          "text": "Two Ways to Share Verified Documents"
+        },
+        {
+          "type": "h3",
+          "text": "1. QR Code (Digital or Printed)"
+        },
+        {
+          "type": "p",
+          "text": "Each document in DigiLocker has a QR code at the top. You can:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Show the QR code on your phone screen \u2014 verifier scans it with any QR scanner",
+            "Print the document \u2014 the QR code on the printout can still be scanned",
+            "The QR code opens a secure verification page on DigiLocker showing the original document"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2. Share URI Link"
+        },
+        {
+          "type": "p",
+          "text": "Each document has a unique URI (a long URL). You can:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Click 'Share' and send the URI via email or WhatsApp",
+            "The verifier opens the link in any browser \u2014 it shows the official verified copy",
+            "No login required for the verifier. The link works for 30 days."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "What Verifiers See"
+        },
+        {
+          "type": "p",
+          "text": "When someone scans your QR code or opens the URI, they see: the exact document as issued by the authority, document issue date and issuer details, digital signature verification status (\u2713 Verified), and tamper detection (shows if document was modified)."
+        },
+        {
+          "type": "tip",
+          "text": "DigiLocker documents are recognized as legally valid under the IT Act, 2000. Most Indian universities, government exams (SSC, UPSC), and private employers accept DigiLocker verified documents without needing physical copies."
+        }
+      ],
+      "date": "2026-06-09"
+    }
+  ]
+}
